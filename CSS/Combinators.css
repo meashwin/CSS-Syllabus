@@ -1,0 +1,23 @@
+/* Descendant Selector Combinators */
+div p
+{
+    color: red;
+}
+
+/* Child Selector Combinators */
+div > p
+{
+    background-color: lightgreen;
+}
+
+/* Adjacent Sibling Combinator */
+div + p
+{
+    font-size: 30px;
+}
+
+/* General Sibling Selector Combinator */
+div ~ p
+{
+    font-style: italic;
+}

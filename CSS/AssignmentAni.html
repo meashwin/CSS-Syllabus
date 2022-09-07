@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Animation</title>
+    <style>
+        .main
+        {
+            background-image: url(./Img/Background.gif);
+            background-size: cover;
+            position: fixed;
+            margin: 0px;
+            height: 590px;
+            width: 1250px;
+            position: fixed;
+            
+            
+        }
+        .gif1
+        {
+            border: 0px solid;
+            height: 200px;
+            width: 150px;
+            top: 400px;
+            left: 1250px;
+            animation-name: anime1;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+
+        }
+
+        .gif2
+        {
+            border: 0px solid;
+            height: 20px;
+            width: 50px;
+            top: 200px;
+            left: 0px;
+            animation-name: anime2;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+            position: fixed;
+
+        }
+
+
+        @keyframes anime1
+        {
+            0%
+            {
+                position: relative;
+                top: 300px;
+                left: 1100px;
+            }
+            100%
+            {
+                position: relative;
+                top: 300px;
+                left: 0px;
+            }   
+        }
+
+         @keyframes anime2
+        {
+            0%
+            {
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+           100%
+            {
+                position: relative;
+                top: 500px;
+                left: 1200px;
+            }  
+        } 
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="gif1">
+            <img src="./Img/plants-vs-zombies-zombie-bailarin.gif" alt="">
+        </div>
+        <div class="gif2">
+            <img src="./Img/duck.gif" height="150px"  width="100px" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>

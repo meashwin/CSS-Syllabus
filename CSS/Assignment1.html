@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .main
+        {
+           background-image: url(./Img/Background.gif);
+           background-size: cover;
+           background-attachment: fixed;
+           height: 600px;
+           width: 1200px;
+          position: fixed;
+          
+
+        }
+        .abc
+        {
+            animation-name: anime;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            position: absolute;
+            height: 100px;
+            width: 200px;
+            border: 0px solid;
+            border-top: 100px;
+            border-left: 1200px;
+        
+        }
+        @keyframes anime
+        {
+            0%
+            {
+                position: relative;
+                top: 100px;
+                left:1200px;
+            }
+            100%
+            {
+               position: relative;
+               top: 100px;
+               left: 0px;
+            }
+
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+
+<div class="abc"> <img src="./Img/plants-vs-zombies-zombie-bailarin.gif" height="200px" width="150px"  alt=""></div>
+</div>
+</body>
+</html>

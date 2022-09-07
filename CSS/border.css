@@ -1,0 +1,28 @@
+.border
+{
+    border-style: double;
+    border-width: 10px;
+    border-color: red;
+    border-radius: 20px;
+}
+
+.para
+{
+    border-top-style: double;
+    border-top-width: 10px;
+    border-top-color: greenyellow;
+    border-left-style: dashed;
+    border-left-width: 10px;
+    border-left-color: gray;
+    border-bottom-style: inset;
+    border-bottom-width: 10px;
+    border-bottom-color: blue;
+    border-right-style: outset;
+    border-right-width: 10px;
+    border-right-color: aquamarine;
+}
+
+.shape
+{
+    border-style:inherit;
+}

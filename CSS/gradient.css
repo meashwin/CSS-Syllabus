@@ -1,0 +1,48 @@
+.container
+{
+    border: solid 2px black;
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(red,yellow,green);
+}
+
+.container1
+{
+    border: solid 2px black;
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to right, pink,orange,red);
+
+}
+
+.container2
+{
+    border: solid 2px black;
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to top right, green,grey,purple         );
+
+}
+
+.maincontainer
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container3
+{
+    border: solid 2px black;
+    height: 300px;
+    width: 300px;
+    background: radial-gradient(red,yellow,white,blue);
+}
+
+.container4
+{
+    border: solid 2px black;
+    height: 300px;
+    width: 300px;
+    background: radial-gradient(circle at bottom right,red,yellow,white,blue);
+}
+

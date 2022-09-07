@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container
+        {
+            background-image: radial-gradient(blue, white,blue);
+            height: 200px;
+            width: 200px;
+            margin-top: 150px;
+            margin-left: 500px;
+            animation-name: anime;
+            animation-duration: 5s;
+            /* animation-iteration-count: infinite; */
+            
+        }
+
+        @keyframes anime 
+        {
+            0%
+            {
+                background-image: radial-gradient(blue,white,blue);
+            }            
+            50%
+            {
+                background-image: radial-gradient(white,blue,white);
+                /* transform: rotate(360deg); */
+                /* transform: rotate(10turn); */
+                /* transform: scale(2); */
+                transform: scale(2) rotate(10turn);
+            }
+            100%
+            {
+                background-image: radial-gradient(blue,white,blue);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+    
+</body>
+</html>

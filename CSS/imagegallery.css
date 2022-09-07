@@ -1,0 +1,22 @@
+.head
+{
+    height: 70px;
+    width: auto;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: blue;
+    color: white;
+    position: fixed;
+    text-align: center;
+}
+
+
+
+.img
+{
+    border: solid 2px black;
+    height: 302px;
+    width: 302px;
+    display: inline-block;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            /* background-color: red; */
+            animation-name: anime;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            animation-direction: alternate;
+            animation-delay: 2s;
+            background-image: url(./Img/150831_r26901.webp);
+            background-size: 100%;
+        }
+        @keyframes anime
+         {
+            0%
+            {
+                position: relative;
+                top: 0px;
+                left: 0px;
+                height: 200px;
+                width: 200px;
+                /* background-color: blue; */
+                background-image: url(./Img/150831_r26901.webp);
+                background-size: 100%;
+            }           
+            25%
+            {
+                position: relative;
+                top: 0px;
+                left: 800px;
+                height: 200px;
+                width: 400px;
+                /* background-color: greenyellow; */
+                background-image: url(./Img/1665_Girl_with_a_Pearl_Earring.jpg);
+                background-size: 100%;
+                background-position-x: center;
+            }
+            50%
+            {
+                position: relative;
+                top: 375px;
+                left: 800px;
+                border-radius: 50%;
+                /* background-color: pink; */
+                background-image: url(./Img/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg);
+                background-size: 100%;
+            }
+            75%
+            {
+                position: relative;
+                top: 375px;
+                left: 0px;
+                border-radius: 100%;
+                /* background-color: purple; */
+                background-image: url(./Img/Mona_Lisa.jpg);
+                background-size: 100%;
+            }
+            100%
+            {
+                position: relative;
+                top: 0px;
+                left: 0px;
+                height: 200px;
+                width: 200px;
+                /* background-color: red; */
+                background-image: url(./Img/150831_r26901.webp) ;
+                background-size: 100%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+    
+</body>
+</html>

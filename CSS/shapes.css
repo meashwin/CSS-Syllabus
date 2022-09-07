@@ -1,0 +1,86 @@
+.square
+{
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+}
+
+.rect
+{
+    border: solid 5px blue;
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+
+.crcl
+{
+    border: solid 5px green;
+    height: 235px;
+    width: 235px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.oval
+{
+    border: solid 5px yellow;
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.tri
+{
+    border: solid 2px;
+    height: 0px;
+    width: 0px;
+
+    border-right:solid 100px red ;
+    border-left: solid 100px green;
+    border-top: solid 00px blue;
+    border-bottom: solid 200px yellow;   
+
+}
+
+.sqr
+{
+    border: solid 10px red;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+.crl
+{
+    border: solid 10px yellow;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    
+}
+
+
+.rec
+{
+    border: solid 10px red;
+    height: 200px;
+    width: 300px;
+    background-color: red;
+}
+
+.ovl
+{
+    border: solid 10px yellow;
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    
+}

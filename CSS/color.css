@@ -1,0 +1,26 @@
+.hardcode
+{
+    color: red;
+    background-color: khaki;
+}
+
+.hexa
+{
+    color: #abcdef;
+    background-color: #000000;
+}
+
+.decimal
+{
+    color: rgb(78, 45, 234);
+    background-color: rgb(188,188,188);
+}
+
+body
+{
+    background-image: url(./Img/Walpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

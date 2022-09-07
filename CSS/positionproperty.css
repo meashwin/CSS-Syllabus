@@ -1,0 +1,40 @@
+.sqr
+{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.sqr1
+{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    
+    position: sticky;
+    top: 0px;
+}
+
+.container
+{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: relative;
+}
+
+.circle
+{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

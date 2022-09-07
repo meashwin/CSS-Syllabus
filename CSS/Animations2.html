@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Assignment</title>
+    <style>
+        .first
+        {
+            height: 300px;
+            width: 300px;
+            background-color: blue;
+            animation-name: animation1;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .second
+        {
+            position: absolute;
+            top: 10px;
+            right: 90px;
+            border: 1px solid black;
+            height: 300px;
+            width: 300px;
+            background-image: url(./Img/1665_Girl_with_a_Pearl_Earring.jpg);
+            background-size: 100%;
+            animation-name: animation2;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            display: flex;
+            flex-wrap: wrap;
+
+        
+        }
+        @keyframes animation1 
+        {
+            0%
+            {
+            height: 300px;
+            width: 300px;
+            background-color: blue;
+            }
+            25%
+            {
+                width: 500px;
+                background-color: red;
+            }
+            50%
+            {
+                border-radius: 50%;
+                background-color: greenyellow;
+            }
+            75%
+            {
+                border-radius: 100%;
+                background-color: blueviolet;
+            }  
+            100%
+            {
+            height: 300px;
+            width: 300px;
+            background-color: blue;
+            }
+        }
+            @keyframes animation2
+            {
+                from
+             {
+                border: 1px solid black;
+            height: 300px;
+            width: 300px;
+            background-image: url(./Img/1665_Girl_with_a_Pearl_Earring.jpg);     
+            }      
+            to
+            {
+                /* border: radius 100px; */
+                background-image: url(./Img/Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg); 
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="first">
+
+        </div>
+    
+        <div class="second">
+        </div>
+    </div>
+    
+</body>
+</html>

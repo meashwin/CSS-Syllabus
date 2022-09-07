@@ -1,0 +1,39 @@
+h1
+{
+    color: red;
+}
+
+.para
+{
+    background-color: gold;
+}
+
+h3
+{
+    color: blue;
+}
+
+/* ID Selector*/
+#abc
+{
+    color: green;
+}
+
+/* Class Selector*/
+.xyz
+{
+    color: chocolate;
+}
+
+/* Group Selector*/
+
+h1,h2
+{
+    background-color: darkorange;
+}
+
+/* Universal Selector*/
+*
+{
+    background-color: aqua;
+}
